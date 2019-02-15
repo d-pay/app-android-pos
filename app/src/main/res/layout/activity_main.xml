@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/edit_valor"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:ems="10"
+                android:text="R$"
+                android:inputType="number|phone"
+                android:textAlignment="viewEnd"
+                android:textSize="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="-30dp" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:background="#1B226F"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:padding="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/btn_seguinte"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEGUINTE" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
